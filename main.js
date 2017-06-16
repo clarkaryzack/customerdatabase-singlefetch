@@ -7,11 +7,6 @@ var customers = document.getElementById("customers");
 
 (function () {
 
-
-
-
-
-
 	fetch('https://randomuser.me/api/?results=12')
 	  .then(
 	    function(response) {
@@ -48,7 +43,6 @@ var customers = document.getElementById("customers");
 	            <li>${cell}</li>
 						</ul>
 	        `;
-
 
 					var customers = document.getElementById("customers")
 					customers.innerHTML += markup;
